@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurum - Cryptocurrency by Baltic Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Aurum</h1>
+            <p>Powered by Baltic Tech</p>
+            <p>The future of global blockchain-based finance.</p>
+        </div>
+    </header>
+
+    <section id="contract-address">
+        <div class="container">
+            <h2>Token Contract Address</h2>
+            <p>Copy the address below to add Aurum to your wallet:</p>
+            <div class="address-box">
+                <input type="text" id="token-address" value="0x6E97A67a160Bb259ee31d30908bC27A345BD3eA2" readonly>
+                <button onclick="copyAddress()">Copy Address</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="how-to-add">
+        <div class="container">
+            <h2>How to Add Aurum to Your Wallet</h2>
+            <p>Follow these simple steps:</p>
+            <ol>
+                <li>Open your wallet application.</li>
+                <li>Go to the "Add Custom Token" section.</li>
+                <li>Paste the contract address provided above.</li>
+                <li>Ensure the token name is "Aurum" and the symbol is "AUR".</li>
+                <li>Confirm and save the token.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="token-holders">
+        <div class="container">
+            <h2>Our List of Token Holders are being populated</h2>
+            <ul id="holders-list">
+                <!-- Token holders will be dynamically populated here -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Baltic Tech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
